@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+        body{width: 100vw; height: 100vh; display: grid; place-content: center;}
+        .card{width: 300px; height: 400px; background: rgba(7, 123, 123, 0.749); border-radius: 20px;  overflow: hidden; text-align: center;}
+        .card img.portrait{width: 100%; z-index: -1; border-bottom: 1px;}
+        .card img.foto{width: 30%; border-radius: 50px; border-style: solid; border-color: papayawhip; position: relative; top:-13%;}
+        h3{font-family: Outfit; margin-top: -10%;}
+        .social{display: flex; justify-content: stretch; align-items: center;}
+        .card img.insta {width: 20%; border-radius: 50px;}
+        p{font-family: Outfit; margin: 0px; color: antiquewhite;}
+        .separator{width: 2px; height: 30px; background-color: antiquewhite; margin-left: 8%;}
+        .card img.gith {width: 13%; border-radius: 50px; margin: 10px;}
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img class="portrait" src="https://images.pexels.com/photos/13232778/pexels-photo-13232778.jpeg" alt="">
+            <img class="foto" src="./Foto.jpeg" alt="">
+            <h3>David Lidueñas Gil</h3>
+            <div class="social">
+                <img class="insta" src="https://anthoncode.com/wp-content/uploads/2019/07/logo-instagra-png-transparent.png" alt="">
+                <p>deer.code</p>
+                <div class="separator"></div>
+                <img class="gith" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="">
+                <p>davidlidu</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
